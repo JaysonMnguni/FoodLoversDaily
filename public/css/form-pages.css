@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Fonts */
+.main-font{
+    font-family: Luckiest Guy;
+}
+.secondary-font{
+    font-family: Century Gothic;
+}
+
+.txt-italics{
+    font-style: italic;
+}
+
+/* Main Body Styling */
+body{
+    height: 100vh;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+/* <!-- Social Media Icons Wrapper --> */
+.social-media-icons-wrap{
+    background-color: #FFC00A;
+    height: 100%;
+    width: 5%;
+}
+
+/* <!-- Image Wrap --> */
+.form-img-wrap{
+    /*border: 1px solid red;*/
+    width: 35%;
+    height: 100%;
+    background-image: url('../images/login-register-img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* <!-- Form Content Container --> */
+.form-content-container{
+    /*border: 5px solid rgb(8, 62, 209);*/
+    width: 60%;
+    height: 100%;
+}
+
+
+/* <!-- Form Container Header --> */
+.form-container-header{
+    background-color: #001620;
+}
+
+/* <!-- Form Container Header --> */
+.form-container-header h2{
+    font-size: 70px;
+}
+
+.form-container-header h5{
+    font-size: 30px;
+}
+
+/* <!-- Call To Action Button--> */
+#sign-btn{
+    background-color: #001620;
+    color: white;
+}
+
+/* <!-- Social Media Icons Wrapper --> */
+.social-media-icons-wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 600px){
+    /* <!-- Social Media Icons Wrapper --> */
+    .social-media-icons-wrap{
+        display: none;
+    }   
+    
+    /* <!-- Form Content Container --> */
+    .form-content-container{
+        /*border: 5px solid rgb(8, 62, 209);*/
+        width: 100%;
+        height: 100%;
+    }
+   
+    
+    /* <!-- Form Container Header --> */
+    .form-container-header h2{
+        font-size: 35px;
+    }
+
+    .form-container-header h5{
+        font-size: 22px;
+    }
+
+        
+
+
+}

@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+
+/* Main Body Styling */
+body{
+    padding: 0px;
+    margin: 0px;
+    height: 100vh;
+    background-color: #ebebeb;
+}
+
+/* Main Colors */
+.main-bg-dark-color{
+    background-color: #001620;
+    color: white;
+}
+
+.main-bg-dark-color:hover{
+    color: white;
+}
+
+/* Fonts */
+.main-font{
+    font-family: Luckiest Guy;
+}
+.secondary-font{
+    font-family: Century Gothic;
+}
+
+.txt-italics{
+    font-style: italic;
+}
+
+
+/* <!-- Main Page Header --> */
+.main-page-header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* <!-- ribbon --> */
+.ribbon{
+    padding: 5px 0px;
+    background-color: #FFC00A;
+    color:  #001620;
+}
+
+/* <!-- Navigation and Logo Container --> */
+.nav-and-logo-container{
+    background-color: rgba(0, 22, 32, 0.9);
+}
+
+/* <!-- Navigation Container --> */
+.navigation{
+    /* border: 1px solid #FFC00A; */
+    margin: 0px;
+}
+
+.navigation li{
+    display: inline-block;
+    margin-left: 7px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: white;
+}
+
+/* <!-- Landing --> */
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../images/landing-banner-img.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* <!-- Overlay --> */
+.overlay{
+    background: rgba(0, 22, 32, 0.5);
+    height: 100%;
+    width: 100%;
+}
+/* <!-- Recipes Preview Block --> */
+.recipes-preview-block{
+    height: 500px;
+    width: 100%;
+    display: flex;
+}
+/*
+.recipe-content{
+    /* border: 1px solid red; */
+    /* width: 45%;
+    height: 100%; 
+    padding: 60px 10px 0px 137px;
+    
+}*/
+
+/* <!-- Image Container --> */
+.img-container{
+    background-image: url('../images/recepe-preview-img.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    /*width: 55%;*/
+}
+
+/* <!-- Contact Content Block --> */
+.contact-block{
+    height: 100vh;
+    background-image: url("../images/contact-background-img.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* <!-- Contact Form Contents Wrap --> */
+.contact-content-form-wrap{
+    display: flex;
+}
+
+/* <!-- Contact Image Container --> */
+.contact-img-container{
+    background-image: url("../images/contact-card-img.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* <!-- Blog Post Container --> */
+.blog-container{
+    height: 100vh;
+    margin-top: 200px;
+}
+
+/* <!-- Post Container --> */
+.post-container{
+    margin-top: 130px;
+}
+
+/**/
+#blog-featured-image{
+    height: 500px;
+    width: 100%;
+}
+
+#blog-featured-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
